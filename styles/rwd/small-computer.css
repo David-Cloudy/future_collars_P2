@@ -1,0 +1,25 @@
+@media screen and (min-width: 1025px) {
+  .header-anchor {
+    cursor: pointer;
+    transition-property: color background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+
+  .header-anchor:hover {
+    background-color: var(--white);
+    color: black;
+  }
+
+  .service-box {
+    cursor: pointer;
+  }
+
+  .service-box:hover {
+    transform: scale(1.05);
+  }
+
+  .footer-li {
+    cursor: pointer;
+  }
+}
